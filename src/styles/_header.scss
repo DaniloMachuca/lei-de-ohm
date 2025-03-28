@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  .nav {
+    &__list {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      padding-top: 14px;
+    }
+  }
+}

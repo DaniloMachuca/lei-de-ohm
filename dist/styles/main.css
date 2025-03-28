@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav__list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-top: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.text {
+  font-size: 16px;
+}
+.text--big {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 24px;
+}
+.title--big {
+  font-size: 32px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
