@@ -1,8 +1,9 @@
+@use "variaveis";
 @use "header";
 @use "resumo-sobre";
-@use "variaveis";
 @use "nav";
 @use "apresentacao";
+@use "sobreleiohm";
 
 * {
   margin: 0;
@@ -17,6 +18,7 @@ body {
 
 .text {
   font-size: 18px;
+  margin-bottom: 16px;
 
   &--big {
     font-size: 24px;
@@ -24,7 +26,9 @@ body {
 }
 
 .title {
-  font-size: 24px;
+  font-size: 32px;
+  margin-bottom: 16px;
+  margin-top: 16px;
 
   &--big {
     font-size: 42px;
@@ -35,4 +39,33 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.image-text-container {
+  img {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 5%;
+  }
+
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.text-container {
+  margin-top: 16px;
+
+  .subtitle {
+    text-align: center;
+  }
+}
+
+.img {
+  display: flex;
+  justify-content: center;
 }

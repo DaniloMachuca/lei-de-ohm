@@ -1,1 +1,22 @@
-https://brasilescola.uol.com.br/fisica/a-lei-ohm.htm
+Fontes para o Texto Inteiro:
+
+- "Desvendando a Lei de Ohm" – Autor: Erich Georg. Editora: Almeida e Porto Livros Técnicos, 2013.
+  Link: https://www.livrotec.com.br/inicio/273-desvendando-da-lei-de-ohm-9788561226244.html
+
+- "Leis Básicas - Lei de Ohm e Leis de Kirchhoff" – Material didático da PUC Goiás.
+  Link: https://professor.pucgoias.edu.br/sitedocente/admin/arquivosUpload/17601/material/01%20-%20Leis_b%C3%A1sicas01.pdf
+
+- "Resistores e Leis de Ohm" – Artigo educativo da Globo Educação.
+  Link: https://educacao.globo.com/fisica/assunto/eletromagnetismo/resistores-e-leis-de-ohm.html
+
+- "Resistência elétrica, resistividade e leis de Ohm" – Artigo educacional do UOL Educação.
+  Link: https://educacao.uol.com.br/disciplinas/fisica/leis-de-ohm-resistencia-eletrica-resistividade-e-leis-de-ohm.htm
+
+- "Lei de Ohm: definição, fórmula, macete, exercícios" – Artigo do Brasil Escola.
+  Link: https://brasilescola.uol.com.br/fisica/a-lei-ohm.htm
+
+- "Desvendando a lei de Ohm: buscando respostas na história" – Dissertação de Georg Simon Ohm.
+  Link: https://pantheon.ufrj.br/bitstream/11422/9106/1/DMRSilva.pdf
+
+- "A compreensão da primeira lei de Ohm através da proposta metodológica da aprendizagem cooperativa" – Artigo acadêmico disponível no Repositório da UFC.
+  Link: https://repositorio.ufc.br/bitstream/riufc/45330/1/2017_eve_fjrocha.pdf
