@@ -1,0 +1,21 @@
+@use "variaveis";
+
+.apresentacao {
+  text-align: center;
+  &__list {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      background-color: variaveis.$cor-4;
+      border-radius: 10px;
+      padding: 16px;
+    }
+  }
+}

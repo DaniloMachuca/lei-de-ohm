@@ -1,4 +1,8 @@
 @use "header";
+@use "resumo-sobre";
+@use "variaveis";
+@use "nav";
+@use "apresentacao";
 
 * {
   margin: 0;
@@ -7,8 +11,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: variaveis.$cor-1;
+}
+
 .text {
-  font-size: 16px;
+  font-size: 18px;
 
   &--big {
     font-size: 24px;
@@ -19,7 +27,7 @@
   font-size: 24px;
 
   &--big {
-    font-size: 32px;
+    font-size: 42px;
   }
 }
 

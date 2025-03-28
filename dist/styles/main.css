@@ -1,12 +1,66 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
-.header .nav__list {
+.header h1 {
+  font-family: "Electrolize", sans-serif;
+}
+
+.resumo-sobre {
+  justify-content: center;
+}
+.resumo-sobre .title {
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.resumo-sobre .text {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.resumo-sobre__img {
+  display: flex;
+  justify-content: center;
+}
+.resumo-sobre__img img {
+  width: 50%;
+}
+
+.nav__list {
   display: flex;
   list-style: none;
   gap: 20px;
   padding-top: 14px;
+  justify-content: center;
+}
+.nav__list__item {
+  background-color: #27548a;
+  border-radius: 10px;
+}
+.nav__list__item a {
+  padding: 20px;
+  text-decoration: none;
+  color: #f5eedc;
+  font-size: 24px;
+}
+
+.apresentacao {
+  text-align: center;
+}
+.apresentacao__list {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.apresentacao__list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background-color: #dda853;
+  border-radius: 10px;
+  padding: 16px;
 }
 
 * {
@@ -16,8 +70,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #f5eedc;
+}
+
 .text {
-  font-size: 16px;
+  font-size: 18px;
 }
 .text--big {
   font-size: 24px;
@@ -27,7 +85,7 @@
   font-size: 24px;
 }
 .title--big {
-  font-size: 32px;
+  font-size: 42px;
 }
 
 .container {

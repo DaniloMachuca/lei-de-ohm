@@ -1,13 +1,10 @@
+@use "variaveis";
+
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
-  .nav {
-    &__list {
-      display: flex;
-      list-style: none;
-      gap: 20px;
-      padding-top: 14px;
-    }
+  h1 {
+    font-family: "Electrolize", sans-serif;
   }
 }
