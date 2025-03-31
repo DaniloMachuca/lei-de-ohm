@@ -12,6 +12,10 @@
       background-color: variaveis.$cor-2;
       border-radius: 10px;
 
+      &--active {
+        background-color: #7fabe0;
+      }
+
       a {
         padding: 20px;
         text-decoration: none;

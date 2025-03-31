@@ -31,6 +31,9 @@
   background-color: #27548a;
   border-radius: 10px;
 }
+.nav__list__item--active {
+  background-color: #7fabe0;
+}
 .nav__list__item a {
   padding: 20px;
   text-decoration: none;
@@ -87,6 +90,25 @@
 }
 .botao:hover {
   background-color: #7fabe0;
+}
+
+.formula .title {
+  text-align: center;
+}
+.formula .text-container .img img {
+  max-width: 400px;
+}
+.formula__list {
+  padding: 16px;
+}
+.formula__list__item {
+  margin-bottom: 8px;
+}
+.formula .lei {
+  padding: 24px;
+}
+.formula span {
+  font-weight: bold;
 }
 
 * {
