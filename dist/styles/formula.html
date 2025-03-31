@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fórmulas - Leis de ohm</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title--big">Leis de ohm</h1>
+      </header>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list__item">
+            <a href="home.html">Home</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav__list__item nav__list__item--active">
+            <a href="formula.html">Fórmula</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="aplicacao.html">Aplicações</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="exercicios.html">Exercícios</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="formula">
+        <h2 class="title">Explicando as Fórmulas</h2>
+        <div class="text-container">
+          <p class="text">
+            A Lei de Ohm estabelece a relação matemática entre tensão, corrente
+            elétrica e resistência em um circuito elétrico. Ela é dividida em
+            Primeira Lei de Ohm e Segunda Lei de Ohm, cada uma explicando
+            diferentes aspectos do comportamento elétrico dos materiais.
+          </p>
+          <div class="lei">
+            <h3 class="subtitle">1. Primeira Lei de Ohm</h3>
+            <div class="text-container">
+              <p class="text">A Primeira Lei de Ohm é expressa pela equação:</p>
+              <div class="img">
+                <img
+                  src="./images/imagem-primeira-formula.png"
+                  alt="imagem primeira fórmula"
+                />
+              </div>
+              <span class="text">Onde:</span>
+              <ul class="text formula__list">
+                <li class="formula__list__item">
+                  V = Tensão elétrica (Volts - V)
+                </li>
+                <li class="formula__list__item">
+                  I = Corrente elétrica (Ampères - A)
+                </li>
+                <li class="formula__list__item">
+                  R = Resistência elétrica (Ohms - Ω)
+                </li>
+              </ul>
+            </div>
+            <p class="text">
+              Essa equação mostra que a corrente elétrica em um circuito é
+              diretamente proporcional à tensão aplicada e inversamente
+              proporcional à resistência. Isso significa que, se aumentarmos a
+              tensão, a corrente também aumentará, mas se aumentarmos a
+              resistência, a corrente diminuirá.
+            </p>
+          </div>
+          <div class="lei">
+            <h3 class="subtitle">2. Segunda Lei de Ohm</h3>
+            <div class="text-container">
+              <p class="text">
+                A Segunda Lei de Ohm trata da resistividade elétrica dos
+                materiais e é expressa pela equação:
+              </p>
+              <div class="img">
+                <img
+                  src="./images/imagem-segunda-formula.png"
+                  alt="segunda fórmula da lei de ohm"
+                />
+              </div>
+              <span class="text">Onde:</span>
+              <ul class="text formula__list">
+                <li class="formula__list__item">
+                  R = Resistência elétrica (Ohms - Ω)
+                </li>
+                <li class="formula__list__item">
+                  ρ = Resistividade do material (Ohm metro - Ω·m)
+                </li>
+                <li class="formula__list__item">
+                  L = Comprimento do condutor (metros - m)
+                </li>
+                <li class="formula__list__item">
+                  A = Área da secção transversal do condutor (metros quadrados -
+                  m²)
+                </li>
+              </ul>
+              <p class="text">
+                Essa fórmula mostra que a resistência elétrica de um condutor
+                depende do material, do comprimento e da espessura do fio.
+              </p>
+              <span class="text">Explicação dos fatores:</span>
+              <ul class="formula__list">
+                <li class="formula__list__item">
+                  <span>Material:</span> Cada material tem uma resistividade
+                  característica. Por exemplo, cobre e prata têm baixa
+                  resistividade, sendo bons condutores, enquanto borracha e
+                  plástico têm alta resistividade, sendo isolantes.
+                </li>
+                <li class="formula__list__item">
+                  <span>Comprimento (L):</span> Quanto maior o fio, maior será a
+                  resistência, pois os elétrons encontram mais obstáculos ao se
+                  movimentar.
+                </li>
+                <li class="formula__list__item">
+                  <span>Área da secção transversal (A):</span> Quanto maior a
+                  espessura do fio, menor será a resistência, pois há mais
+                  espaço para os elétrons passarem.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="lei">
+            <h3 class="subtitle">Conclusão</h3>
+            <div class="text-container">
+              <ul class="formula__list">
+                <li class="formula__list__item">
+                  <span>A Primeira Lei de Ohm</span> explica a relação entre
+                  tensão, corrente e resistência.
+                </li>
+                <li class="formula__list__item">
+                  <span>A Segunda Lei de Ohm</span> explica como a resistência
+                  depende do material, do comprimento e da espessura do
+                  condutor.
+                </li>
+              </ul>
+              <p>
+                Esses conceitos são fundamentais para entender como funcionam
+                circuitos elétricos e como os materiais influenciam no
+                transporte de corrente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

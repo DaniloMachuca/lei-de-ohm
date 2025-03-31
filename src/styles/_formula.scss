@@ -1,0 +1,29 @@
+.formula {
+  .title {
+    text-align: center;
+  }
+
+  .text-container {
+    .img {
+      img {
+        max-width: 400px;
+      }
+    }
+  }
+
+  &__list {
+    padding: 16px;
+
+    &__item {
+      margin-bottom: 8px;
+    }
+  }
+
+  .lei {
+    padding: 24px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
