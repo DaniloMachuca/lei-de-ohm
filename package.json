@@ -9,11 +9,23 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "gulp": "^5.0.0",
     "gulp-sass": "^6.0.1",
     "gulp-watch": "^5.0.1",
     "sass": "^1.86.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniloMachuca/lei-de-ohm.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DaniloMachuca/lei-de-ohm/issues"
+  },
+  "homepage": "https://github.com/DaniloMachuca/lei-de-ohm#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
