@@ -12,6 +12,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -41,17 +43,30 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 20px;
+
+  @media (max-width: 768px) {
+    max-width: 85%;
+  }
 }
 
 .image-text-container {
   img {
-    width: 400px;
+    width: 400%;
     object-fit: cover;
     border-radius: 5%;
   }
 
   display: flex;
   padding-bottom: 24px;
+
+  @media (max-width: 768px) {
+    display: block;
+    justify-content: center;
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .subtitle {
@@ -72,4 +87,10 @@ body {
   justify-content: center;
   margin-top: 24px;
   margin-bottom: 24px;
+
+  img {
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
 }
