@@ -61,6 +61,34 @@
   text-align: center;
 }
 
+.exercicios .subtitle {
+  font-size: 20px;
+}
+.exercicios__container {
+  padding: 20px;
+}
+.exercicios__list {
+  list-style: none;
+  margin-bottom: 16px;
+}
+.exercicios__list__item {
+  margin-bottom: 8px;
+}
+
+.botao {
+  background-color: #27548a;
+  color: white; /* Texto branco */
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: #7fabe0;
+}
+
 * {
   margin: 0;
   padding: 0;

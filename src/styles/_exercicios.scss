@@ -1,0 +1,35 @@
+@use "variaveis";
+
+.exercicios {
+  .subtitle {
+    font-size: 20px;
+  }
+
+  &__container {
+    padding: 20px;
+  }
+
+  &__list {
+    list-style: none;
+    margin-bottom: 16px;
+
+    &__item {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.botao {
+  background-color: variaveis.$cor-2;
+  color: white; /* Texto branco */
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #7fabe0;
+  }
+}
