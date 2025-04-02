@@ -80,6 +80,9 @@
   text-align: center;
 }
 
+.exercicios .title {
+  text-align: center;
+}
 .exercicios .subtitle {
   font-size: 20px;
 }
@@ -125,6 +128,16 @@
 }
 .formula span {
   font-weight: bold;
+}
+
+.aplicacao .title {
+  text-align: center;
+}
+.aplicacao span {
+  font-weight: bold;
+}
+.aplicacao .img img {
+  width: 70%;
 }
 
 * {
